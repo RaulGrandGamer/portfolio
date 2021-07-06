@@ -1,0 +1,52 @@
+@import "~normalize.css/normalize.css";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 14px;
+  line-height: 102.25%;
+  letter-spacing: -0.005em;
+  cursor: pointer;
+  border: 1px solid #000000;
+  padding: 8px 11px;
+  width: 100%;
+}
+
+section + section {
+  margin-top: 65px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
