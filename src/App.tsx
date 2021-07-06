@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="container">
             <header className="header">
-                <img className="logo" src="portfolio/logo.svg" alt=""/>
+                <img className="logo" src="logo.svg" alt=""/>
                 <ul className="header__links">
                     <li>
                         <AnchorLink className="header__link active" href="#services">Услуги</AnchorLink>
@@ -25,36 +25,36 @@ function App() {
                         <a className="button" href="#offer">заказать</a>
                     </div>
                     <div className="right">
-                        <img src="portfolio/hero.png" alt=""/>
+                        <img src="hero.png" alt=""/>
                     </div>
                 </section>
                 <section id="portfolio">
                     <span className="section__title">Портфолио и мои работы</span>
                     <div className="portfolio__items">
-                        <div className="portfolio__item"><img src="portfolio/1.png" alt=""/></div>
-                        <div className="portfolio__item"><img src="portfolio/2.png" alt=""/></div>
-                        <div className="portfolio__item"><img src="portfolio/3.png" alt=""/></div>
-                        <div className="portfolio__item"><img src="portfolio/4.png" alt=""/></div>
-                        <div className="portfolio__item"><img src="portfolio/5.png" alt=""/></div>
+                        <div className="portfolio__item"><img src="1.png" alt=""/></div>
+                        <div className="portfolio__item"><img src="2.png" alt=""/></div>
+                        <div className="portfolio__item"><img src="3.png" alt=""/></div>
+                        <div className="portfolio__item"><img src="4.png" alt=""/></div>
+                        <div className="portfolio__item"><img src="5.png" alt=""/></div>
                     </div>
                 </section>
                 <section id="services">
                     <span className="section__title">мои услуги</span>
                     <div className="services__items">
                         <div className="services__item">
-                            <img className="services__item-img" src="portfolio/engine.svg" alt=""/>
+                            <img className="services__item-img" src="engine.svg" alt=""/>
                             <span className="services__item-title">разработка дизайна сайта</span>
                             <span className="services__item-subtitle">создания сайтов от LANDING PAGE до виртуальных магазинов</span>
                         </div>
-                        <img className="arrow" src="portfolio/arrow.svg" alt=""/>
+                        <img className="arrow" src="arrow.svg" alt=""/>
                         <div className="services__item">
-                            <img className="services__item-img" src="portfolio/ads.svg" alt=""/>
+                            <img className="services__item-img" src="ads.svg" alt=""/>
                             <span className="services__item-title">Создания рекламных дизайнов</span>
                             <span className="services__item-subtitle">баннеры, посты и дизайны для продвижения ваших продуктов</span>
                         </div>
-                        <img className="arrow" src="portfolio/arrow.svg" alt=""/>
+                        <img className="arrow" src="arrow.svg" alt=""/>
                         <div className="services__item">
-                            <img className="services__item-img" src="portfolio/browser.svg" alt=""/>
+                            <img className="services__item-img" src="browser.svg" alt=""/>
                             <span className="services__item-title">Улучшения для бренда</span>
                             <span className="services__item-subtitle">создаю логотипы, брендовые визитки и тд.</span>
                         </div>
