@@ -19,7 +19,7 @@ function App() {
                         <h1 className="hero__title">создаем digital дизайн вашего бренда бизнеса
                             и продуктов</h1>
                         <span className="hero__subtitle">Разработка дизайна сайтов с учетом целевой аудитории, принципов юзабилити и требуемых задач</span>
-                        <a className="button">заказать</a>
+                        <a className="button" href="#offer">заказать</a>
                     </div>
                     <div className="right">
                         <img src="hero.png" alt=""/>
