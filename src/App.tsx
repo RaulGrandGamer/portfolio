@@ -63,8 +63,23 @@ function App() {
                 <section className="brif">
                     <span className="section__title with__subtitle">Бриф</span>
                     <span className="section__subtitle">для Сотрудничества оставьте заявку</span>
+                    <form className="brif__form">
+                        <input className="input" type="text" placeholder="ИМЯ"/>
+                        <input className="input"  type="text" placeholder="ФАМИЛИЯ"/>
+                        <input className="input" type="text" placeholder="E-MAIL"/>
+                        <select className="input">
+                            <option>Услуги</option>
+                        </select>
+                        <input className="input" type="text" placeholder="БЮДЖЕТ"/>
+                        <input className="input" type="text" placeholder="СРОК"/>
+                        <textarea className="input textarea" placeholder="Опишите вашу задачу"/>
+                        <button className="button">Отправить</button>
+                    </form>
                 </section>
             </main>
+            <footer>
+
+            </footer>
         </div>
     );
 }
